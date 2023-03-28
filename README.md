@@ -64,7 +64,7 @@ sudo systemctl status docker
 
 # Các bước chạy Node Taiko
 
-**1. Sao chép đơn giản Node**
+**1. Clone Github của Taiko**
 
 ```
 git clone https://github.com/taikoxyz/simple-taiko-node.git
@@ -80,7 +80,7 @@ cd simple-taiko-node
 cp .env.sample .env
 ```
 
-Tiếp theo, mở tệp `.env`
+Tiếp theo, mở tệp `.env` và sửa file
 
 ```
 nano .env
@@ -90,10 +90,14 @@ nano .env
 
 Sử dụng  Alchemy hoặc Infura để nhận được `ENDPOINT`. Đảm bảo rằng bạn chọn `RPC` là `Sepolia testnet` chứ không phải `Ethereum mainnet`
 
-- L1_ENDPOINT_HTTP="..."
-- L1_ENDPOINT_WS="..."
-
 ![image](https://user-images.githubusercontent.com/108129127/228375928-30004e82-7d00-41cf-93d6-d0ab5d052ee6.png)
+
+Coppy 2 dòng `HTTPS` và `WEBSOCKETS` Paste sau 2 `ENDPOINT` dưới đây:
+
+```
+L1_ENDPOINT_HTTP="..."
+L1_ENDPOINT_WS="..."
+```
 
 Tiếp theo, Đặt `ENABLE_PROVER=true` (thay thế mặc định `false` bằng `true`). Ở `L1_PROVER_PRIVATE_KEY` nhập ví metamask của bạn vào:
 
@@ -101,7 +105,51 @@ Tiếp theo, Đặt `ENABLE_PROVER=true` (thay thế mặc định `false` bằn
 L1_PROVER_PRIVATE_KEY="Coppy private key ví metamask của bạn vào đây"
 ```
 
+Hướng dẫn lấy `Private Key`: https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key
+
+
 **4. Cho Node hoạt động**
 
-Nếu bạn đã chạy nút mạng thử nghiệm `alpha-1`, trước tiên hãy đảm bảo chạy `docker compose down -v` để xóa các ổ đĩa cũ
+Nếu bạn đã chạy nút mạng thử nghiệm `alpha-1`, trước tiên hãy đảm bảo chạy `docker compose down -v` để xóa các ổ đĩa cũ. Sau đó tiến hành khởi động Node:
+
+```
+docker compose up
+```
+
+**5. Dừng Node**
+
+```
+docker compose down
+```
+
+**6. Xóa Node**
+
+Các lệnh này sẽ loại bỏ hoàn toàn Node bằng cách loại bỏ tất cả các ổ đĩa được sử dụng bởi mỗi vùng chứa:
+
+```
+docker compose down -v
+rm -f .env
+```
+
+**7. Cập nhật Node**
+
+Cập nhật `simple-taiko-node`
+
+```
+docker compose pull
+docker compose restart
+```
+
+**8. Xem nhật ký của Node**
+
+Để xem nhật ký `Docker`, có thể chạy các lệnh sau:
+
+```
+docker compose logs -f
+```
+
+
+
+
+
 
