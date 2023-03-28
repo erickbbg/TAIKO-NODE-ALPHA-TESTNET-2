@@ -128,6 +128,9 @@ Nếu bạn đã chạy nút mạng thử nghiệm `alpha-1`, trước tiên hã
 docker compose up
 ```
 
+![image](https://user-images.githubusercontent.com/108129127/228381660-13962541-44ca-4577-b743-d5c84e36b756.png)
+
+
 **5. Dừng Node**
 
 ```
