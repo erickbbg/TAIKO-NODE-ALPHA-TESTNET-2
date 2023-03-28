@@ -1,6 +1,7 @@
 # TAIKO-NODE-ALPHA-TESTNET-2
-**Taiko là blockchain layer2 xây dựng dựa trên công nghệ zkEVM tương thích hoàn toàn với Ethereum (Fully Ethereum-equivalent ZK-Rollup). Taiko hiện là Layer 2 đi theo hướng Type 1 ZK-EVM, đây cũng là type có cấp độ tương thích với EVM cao nhất
-**
+*Taiko là blockchain layer2 xây dựng dựa trên công nghệ zkEVM tương thích hoàn toàn với Ethereum (Fully Ethereum-equivalent ZK-Rollup). Taiko hiện là Layer 2 đi theo hướng Type 1 ZK-EVM, đây cũng là type có cấp độ tương thích với EVM cao nhất*
+
+
 
 **Cơ chế hoạt động của Taiko Protocol**
 
@@ -94,5 +95,9 @@ Sử dụng  Alchemy hoặc Infura để nhận được `ENDPOINT`. Đảm bả
 
 ![image](https://user-images.githubusercontent.com/108129127/228375928-30004e82-7d00-41cf-93d6-d0ab5d052ee6.png)
 
+Tiếp theo, Đặt `ENABLE_PROVER=true` (thay thế mặc định `false` bằng `true`). Ở `L1_PROVER_PRIVATE_KEY` nhập ví metamask của bạn vào:
 
+```
+L1_PROVER_PRIVATE_KEY="Coppy private key ví metamask của bạn vào đây"
+```
 
