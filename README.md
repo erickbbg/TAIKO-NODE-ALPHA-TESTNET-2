@@ -22,3 +22,19 @@ Từ các thành phần tham gia trên, luồng xác nhận giao dịch của Ta
 - Tạo bằng chứng (prove): Các Prover sẽ bắt đầu tạo bằng chứng hợp lệ và chứng minh tính đúng đắn của các khối vừa được gửi lên. 
 
 - Xác thực (verify): Sau khi Prover đã chứng minh được tính đúng đắn cho khối và khối trước nó, chúng sẽ đánh dấu khối là đã hoàn thành trên chain (proved → verified và chuyển trạng thái từ xanh lá sang vàng) 
+
+# Cấu hình tham gia Testnet-Alpha 2
+
+**Tối thiểu:**
+
+- CPU 2+ Cores
+- 4GB RAM
+- 1TB 
+- 8 MBit/s
+
+**Đề xuất**
+
+- CPU 4+ cores
+- 16GB+ RAM
+- SSD 1TB 
+- 25+ MBit/s
