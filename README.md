@@ -38,3 +38,9 @@ Từ các thành phần tham gia trên, luồng xác nhận giao dịch của Ta
 - 16GB+ RAM
 - SSD 1TB 
 - 25+ MBit/s
+
+# Hướng dẫn chạy Node Taiko
+
+1. Cập nhật hệ thống
+
+# sudo apt update && sudo apt install git && sudo apt install apt-transport-https ca-certificates software-properties-common curl
