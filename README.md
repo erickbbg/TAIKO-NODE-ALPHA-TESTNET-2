@@ -25,7 +25,7 @@ Từ các thành phần tham gia trên, luồng xác nhận giao dịch của Ta
 
 # Cấu hình tham gia Testnet-Alpha 2
 
-**Tối thiểu:**
+**Tối thiểu:** 	
 
 - CPU 2+ Cores
 - 4GB RAM
@@ -43,5 +43,19 @@ Từ các thành phần tham gia trên, luồng xác nhận giao dịch của Ta
 
 1. Cập nhật hệ thống
 
-*sudo apt update && sudo apt install git && sudo apt install apt-transport-https ca-certificates software-properties-common curl
+`sudo apt update && sudo apt install git && sudo apt install apt-transport-https ca-certificates software-properties-common curl`
+
+`sudo curl -f -s -S -L https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
+
+`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"`
+
+`d /root`
+
+<sub>sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y </sub>
+
+Kiểm tra trạng thái của Docker:
+
+<sup> sudo systemctl status docker </sup>
+
+
 
