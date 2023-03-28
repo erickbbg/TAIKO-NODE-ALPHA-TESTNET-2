@@ -43,19 +43,25 @@ Từ các thành phần tham gia trên, luồng xác nhận giao dịch của Ta
 
 1. Cập nhật hệ thống
 
-`sudo apt update && sudo apt install git && sudo apt install apt-transport-https ca-certificates software-properties-common curl`
+```
+sudo apt update && sudo apt install git && sudo apt install apt-transport-https ca-certificates software-properties-common curl
 
-`sudo curl -f -s -S -L https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
+sudo curl -f -s -S -L https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
-`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"`
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 
-`d /root`
+d /root
 
-<sub>sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y </sub>
+sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
+```
 
 Kiểm tra trạng thái của Docker:
 
-<sup> sudo systemctl status docker </sup>
+```
+sudo systemctl status docker
+```
+
+# Các bước chạy Node Taiko
 
 
 
