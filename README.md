@@ -86,6 +86,9 @@ Tiếp theo, mở tệp `.env` và sửa file
 nano .env
 ```
 
+![image](https://user-images.githubusercontent.com/108129127/228381984-a620b334-18a1-497d-9afa-8274e3995a63.png)
+
+
 **3. Xác minh trở thành Prover**
 
 Sử dụng  `Alchemy` hoặc `Infura` để nhận được `ENDPOINT`. Đảm bảo rằng bạn chọn `RPC` là `Sepolia testnet` chứ không phải `Ethereum mainnet`
