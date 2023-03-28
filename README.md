@@ -84,4 +84,8 @@ Tiếp theo, mở tệp `.env`
 nano .env
 ```
 
+**3. Xác minh trở thành Prover**
+
+Sử dụng  Alchemy hoặc Infura để nhận được `ENDPOINT`. Đảm bảo rằng bạn chọn `RPC` là `Sepolia testnet` chứ không phải `Ethereum mainnet`
+
 
