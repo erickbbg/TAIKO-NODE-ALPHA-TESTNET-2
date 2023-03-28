@@ -72,7 +72,7 @@ git clone https://github.com/taikoxyz/simple-taiko-node.git
 cd simple-taiko-node
 ```
 
-**2. Cấu hình Node**
+**2. Tải File `env`**
 
 Đầu tiên, sao chép `.env.sample` vào một tệp tin mới `.env`:
 
@@ -100,4 +100,8 @@ Tiếp theo, Đặt `ENABLE_PROVER=true` (thay thế mặc định `false` bằn
 ```
 L1_PROVER_PRIVATE_KEY="Coppy private key ví metamask của bạn vào đây"
 ```
+
+**4. Cho Node hoạt động**
+
+Nếu bạn đã chạy nút mạng thử nghiệm `alpha-1`, trước tiên hãy đảm bảo chạy `docker compose down -v` để xóa các ổ đĩa cũ
 
