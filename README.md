@@ -67,6 +67,7 @@ sudo systemctl status docker
 
 ```
 git clone https://github.com/taikoxyz/simple-taiko-node.git
+
 cd simple-taiko-node
 ```
 
@@ -87,5 +88,11 @@ nano .env
 **3. Xác minh trở thành Prover**
 
 Sử dụng  Alchemy hoặc Infura để nhận được `ENDPOINT`. Đảm bảo rằng bạn chọn `RPC` là `Sepolia testnet` chứ không phải `Ethereum mainnet`
+
+- L1_ENDPOINT_HTTP="..."
+- L1_ENDPOINT_WS="..."
+
+![image](https://user-images.githubusercontent.com/108129127/228375928-30004e82-7d00-41cf-93d6-d0ab5d052ee6.png)
+
 
 
