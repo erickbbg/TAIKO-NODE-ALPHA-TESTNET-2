@@ -63,5 +63,25 @@ sudo systemctl status docker
 
 # Các bước chạy Node Taiko
 
+**1. Sao chép đơn giản Node**
+
+```
+git clone https://github.com/taikoxyz/simple-taiko-node.git
+cd simple-taiko-node
+```
+
+**2. Cấu hình Node**
+
+Đầu tiên, sao chép `.env.sample` vào một tệp tin mới `.env`:
+
+```
+cp .env.sample .env
+```
+
+Tiếp theo, mở tệp `.env`
+
+```
+nano .env
+```
 
 
