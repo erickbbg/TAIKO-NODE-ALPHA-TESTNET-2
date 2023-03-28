@@ -90,7 +90,8 @@ nano .env
 
 Sử dụng  `Alchemy` hoặc `Infura` để nhận được `ENDPOINT`. Đảm bảo rằng bạn chọn `RPC` là `Sepolia testnet` chứ không phải `Ethereum mainnet`
 
-Link truy cập `Alchemy`: https://alchemy.com/?r=7718af30d3c0bb85
+* Link truy cập `Alchemy`: https://alchemy.com/?r=7718af30d3c0bb85
+* Link truy cập `Infura`: https://www.infura.io/
 
 ![image](https://user-images.githubusercontent.com/108129127/228375928-30004e82-7d00-41cf-93d6-d0ab5d052ee6.png)
 
