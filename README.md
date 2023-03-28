@@ -107,6 +107,15 @@ L1_PROVER_PRIVATE_KEY="Coppy private key ví metamask của bạn vào đây"
 
 Hướng dẫn lấy `Private Key`: https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key
 
+Sau khi nhập thành công `L1_ENDPOINT_HTTP`,`L1_ENDPOINT_WS`, `L1_PROVER_PRIVATE_KEY` và thay đổi `ENABLE_PROVER`. Anh em sẽ thực hiện thao tác sau:
+
+```
+Crtl O
+
+Enter
+
+Crtl X
+```
 
 **4. Cho Node hoạt động**
 
